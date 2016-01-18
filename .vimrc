@@ -2,6 +2,8 @@ syntax enable
 
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
+set backspace=indent,eol,start
+
 set number
 set showcmd
 set cursorline
