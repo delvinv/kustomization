@@ -1,5 +1,7 @@
 syntax enable
-set tabstop=4
+
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+
 set number
 set showcmd
 set cursorline
@@ -7,9 +9,7 @@ filetype indent on
 set wildmenu
 
 set hlsearch
-set foldenable
-set foldmethod=indent
-
+set nofoldenable
 colorscheme badwolf
 
 set mouse=a
